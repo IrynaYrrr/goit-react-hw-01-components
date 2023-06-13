@@ -1,2 +1,7 @@
 .statistics {
 }
+
+.statList {
+  display: flex;
+  flex-basis: auto;
+}

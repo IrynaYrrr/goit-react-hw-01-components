@@ -10,7 +10,7 @@ export default function Statistics(data) {
   return (
     <section className={css.statistics}>
       <h2 className={css.title}>{title}</h2>
-      <ul className={css.stat_list}>
+      <ul className={css.statList}>
         <li className={css.item}>
           <span className={css.label}>.docx</span>
           <span className={css.percentage}>4%</span>
