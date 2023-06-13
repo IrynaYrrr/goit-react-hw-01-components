@@ -4,7 +4,7 @@ import css from "./Statistics.module.css";
 
 export default function Statistics(data) {
 
-  const { title, stats } = data;
+  const { title } = data;
 
 
   return (
