@@ -1,32 +1,20 @@
 import React from 'react';
 import css from "./Statistics.module.css";
 
-
-export default function Statistics(data) {
-
-  const { title } = data;
-
+export default function Statistics({stats, title}) {
 
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>{title}</h2>
+      {title.length > 0 && (
+        <h2 className={css.title}>{title}</h2>
+      )}
       <ul className={css.statList}>
-        <li className={css.item}>
-          <span className={css.label}>.docx</span>
-          <span className={css.percentage}>4%</span>
+      {stats.map(item => (
+        <li key={item.id}>
+          <span className={css.label}>{item.label}</span>
+          <span className={css.percentage}>{item.percentage}</span>
         </li>
-        <li className={css.item}>
-          <span className={css.label}>.mp3</span>
-          <span className={css.percentage}>14%</span>
-        </li>
-        <li className={css.item}>
-          <span className={css.label}>.pdf</span>
-          <span className={css.percentage}>41%</span>
-        </li>
-        <li className={css.item}>
-          <span className={css.label}>.mp4</span>
-          <span className={css.percentage}>12%</span>
-        </li>
+      ))}
       </ul>
     </section>
   )
