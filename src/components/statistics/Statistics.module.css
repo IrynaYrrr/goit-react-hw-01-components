@@ -1,7 +1,18 @@
 .statistics {
+  background-color: lightgray;
+  margin-left: 60px;
+}
+
+.title {
+  text-align: center;
 }
 
 .statList {
   display: flex;
   flex-basis: auto;
+  padding-inline-start: 0;
+}
+
+.statItem {
+  background-color: bisque;
 }
