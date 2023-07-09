@@ -1,0 +1,17 @@
+.avatar {
+  margin-top: 20px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  background-color: rgb(74, 255, 38);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.status{
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
