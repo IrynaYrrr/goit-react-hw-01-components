@@ -16,7 +16,7 @@ export default function Statistics({ stats, title }) {
 
       <ul className={css.statList}>
         {stats.map(item => (
-          <li key={item.id} className={css.statItem} style={{ backgroundColor: getRandomHexColor() }}>
+          <li className={css.statItem} key={item.id} style={{ backgroundColor: getRandomHexColor() }}>
             <span className={css.label}>{item.label}</span>
             <span className={css.percentage}>{item.percentage}%</span>
           </li>

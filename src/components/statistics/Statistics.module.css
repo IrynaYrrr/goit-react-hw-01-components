@@ -1,6 +1,7 @@
 .statistics {
-  background-color: lightgray;
-  margin-left: 60px;
+  margin: 0 auto;
+  width: 28%;
+  margin-bottom: 80px;
 }
 
 .title {
@@ -8,9 +9,25 @@
 }
 
 .statList {
-  padding-inline-start: 0;
+  display: flex;
+  width: 400px;
+  height: 85px;
 }
 
-.label, .percentage {
+.label {
   color: white;
+
+}
+
+.percentage {
+  color: white;
+
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 15%;
 }

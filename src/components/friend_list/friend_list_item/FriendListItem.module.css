@@ -10,6 +10,7 @@
 }
 
 .statusOffline {
+  margin: 0 auto;
   background-color: red;
   width: 15px;
   height: 15px;
@@ -17,8 +18,17 @@
 }
 
 .statusOnline {
+  margin: 0 auto;
   background-color: greenyellow;
   width: 15px;
   height: 15px;
   border-radius: 50%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
 }

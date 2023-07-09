@@ -19,5 +19,8 @@
 
 .friendList {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin-bottom: 50px;
 }
