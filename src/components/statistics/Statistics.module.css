@@ -8,11 +8,9 @@
 }
 
 .statList {
-  display: flex;
-  flex-basis: auto;
   padding-inline-start: 0;
 }
 
-.statItem {
-  background-color: bisque;
+.label, .percentage {
+  color: white;
 }
