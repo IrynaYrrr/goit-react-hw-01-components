@@ -9,8 +9,15 @@
   margin-right: auto;
 }
 
-.status{
+.statusOffline {
   background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.statusOnline {
+  background-color: greenyellow;
   width: 15px;
   height: 15px;
   border-radius: 50%;

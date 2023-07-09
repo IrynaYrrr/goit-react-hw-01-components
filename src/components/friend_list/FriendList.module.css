@@ -17,6 +17,7 @@
   background-color: bisque;
 }
 
-.friendList{
+.friendList {
   display: flex;
+  gap: 20px;
 }
