@@ -1,0 +1,30 @@
+.transactionHistory {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.tableTop {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  background-color: #34d6e4;
+  color: white;
+}
+
+.tableItem {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tableHeader:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.tableHeader:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
