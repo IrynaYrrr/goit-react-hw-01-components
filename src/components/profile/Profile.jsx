@@ -2,9 +2,7 @@ import React from 'react';
 import css from "./Profile.module.css";
 import PropTypes from 'prop-types';
 
-export default function Profile(user) {
-
-  const { username, tag, location, avatar, stats } = user;
+export default function Profile({ username, tag, location, avatar, stats }) {
 
   return (
     <div className={css.profile}>
@@ -39,13 +37,13 @@ export default function Profile(user) {
 
 
 Profile.propTypes = {
-  username: PropTypes.string,
-  tag: PropTypes.string,
-  location: PropTypes.string,
-  avatar: PropTypes.string,
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
   stats: PropTypes.shape({
     followers: PropTypes.number,
     views: PropTypes.number,
     likes: PropTypes.number
-  })
+  }).isRequired
 }
